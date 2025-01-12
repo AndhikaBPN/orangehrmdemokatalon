@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - PIM Add" time="91.691" tests="2" failures="0" errors="0">
+   <testsuite name="TS - PIM Add" tests="2" failures="0" errors="0" time="91.691" skipped="0" timestamp="2025-01-12 19:58:14" hostname="NEXSOFT - DESKTOP-C56VD1H" id="Test Suites/PIM/TS - PIM Add">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\NEXSOFT\\Documents\\Project\\orangehrmdemokatalon\\Reports\\20250112_195810\\PIM\\TS - PIM Add\\20250112_195810"/>
+         <property name="logFiles" value="C:\\Users\\NEXSOFT\\Documents\\Project\\orangehrmdemokatalon\\Reports\\20250112_195810\\PIM\\TS - PIM Add\\20250112_195810\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="NEXSOFT - DESKTOP-C56VD1H"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="10.10.18.106"/>
+         <property name="sessionId" value="21f32a549cd97bff04917351664a4967"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login/TC - Login Admin" time="59.793" classname="Test Cases/login/TC - Login Admin" status="PASSED">
+         <system-out><![CDATA[2025-01-12 19:58:14 - [TEST_CASE][PASSED] - Test Cases/login/TC - Login Admin: Test Cases/login/TC - Login Admin
+
+2025-01-12 19:58:15 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/login/loginAdmin.feature"): Feature file: 'Include/features/login/loginAdmin.feature' was passed
+
+2025-01-12 19:58:15 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/login/loginAdmin.feature' and extract report to folder: 'C:\Users\NEXSOFT\Documents\Project\orangehrmdemokatalon\Reports\20250112_195810\PIM\TS - PIM Add\20250112_195810/cucumber_report/1736686695323'...
+
+2025-01-12 19:58:16 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User successfully login to Admin Page: SCENARIO User successfully login to Admin Page
+
+2025-01-12 19:58:16 - [TEST_STEP][PASSED] - User is on login page: User is on login page
+
+2025-01-12 19:58:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-01-12 19:58:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-01-12 19:58:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-01-12 19:58:20 - [MESSAGE][PASSED] - Current window maximized
+
+2025-01-12 19:58:24 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2025-01-12 19:58:24 - [MESSAGE][PASSED] - User is on login page
+
+2025-01-12 19:58:24 - [TEST_STEP][PASSED] - User enters username "Admin" and password "admin123": User enters username "Admin" and password "admin123"
+
+2025-01-12 19:58:24 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputUsername' is present
+
+2025-01-12 19:58:25 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/loginPage/inputUsername'
+
+2025-01-12 19:58:26 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputPassword' is present
+
+2025-01-12 19:58:26 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/loginPage/inputPassword'
+
+2025-01-12 19:58:26 - [MESSAGE][PASSED] - User enters username "Admin" and password "admin123"
+
+2025-01-12 19:58:26 - [TEST_STEP][PASSED] - User clicks on Login button: User clicks on Login button
+
+2025-01-12 19:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPage/buttonLogin' is clicked on
+
+2025-01-12 19:58:28 - [MESSAGE][PASSED] - User clicks on Login button
+
+2025-01-12 19:58:28 - [TEST_STEP][PASSED] - User should be logged in to Admin Page: User should be logged in to Admin Page
+
+2025-01-12 19:58:29 - [MESSAGE][PASSED] - Object 'Object Repository/dashboardPage/userProfile' is present
+
+2025-01-12 19:58:29 - [MESSAGE][PASSED] - User should be logged in to Admin Page
+
+2025-01-12 19:58:29 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User failed login to Admin Page with wrong username: SCENARIO User failed login to Admin Page with wrong username
+
+2025-01-12 19:58:29 - [TEST_STEP][PASSED] - User is on login page: User is on login page
+
+2025-01-12 19:58:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-01-12 19:58:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-01-12 19:58:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-01-12 19:58:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-01-12 19:58:31 - [MESSAGE][PASSED] - Current window maximized
+
+2025-01-12 19:58:34 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2025-01-12 19:58:34 - [MESSAGE][PASSED] - User is on login page
+
+2025-01-12 19:58:34 - [TEST_STEP][PASSED] - User enters username "admin332" and password "admin123": User enters username "admin332" and password "admin123"
+
+2025-01-12 19:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputUsername' is present
+
+2025-01-12 19:58:36 - [MESSAGE][PASSED] - Text 'admin332' is set on object 'Object Repository/loginPage/inputUsername'
+
+2025-01-12 19:58:36 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputPassword' is present
+
+2025-01-12 19:58:37 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/loginPage/inputPassword'
+
+2025-01-12 19:58:37 - [MESSAGE][PASSED] - User enters username "admin332" and password "admin123"
+
+2025-01-12 19:58:37 - [TEST_STEP][PASSED] - User clicks on Login button: User clicks on Login button
+
+2025-01-12 19:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPage/buttonLogin' is clicked on
+
+2025-01-12 19:58:38 - [MESSAGE][PASSED] - User clicks on Login button
+
+2025-01-12 19:58:38 - [TEST_STEP][PASSED] - User should see alert error: User should see alert error
+
+2025-01-12 19:58:39 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/invalidCredentials' is present
+
+2025-01-12 19:58:39 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/invalidCredentials' is present
+
+2025-01-12 19:58:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/loginPage/invalidCredentials' is: 'Invalid credentials'
+
+2025-01-12 19:58:39 - [MESSAGE][PASSED] - Actual text 'Invalid credentials' and expected text 'Invalid credentials' are matched 
+
+2025-01-12 19:58:39 - [MESSAGE][PASSED] - User should see alert error
+
+2025-01-12 19:58:39 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User failed login to Admin Page with wrong password: SCENARIO User failed login to Admin Page with wrong password
+
+2025-01-12 19:58:39 - [TEST_STEP][PASSED] - User is on login page: User is on login page
+
+2025-01-12 19:58:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-01-12 19:58:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-01-12 19:58:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-01-12 19:58:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-01-12 19:58:42 - [MESSAGE][PASSED] - Current window maximized
+
+2025-01-12 19:58:45 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2025-01-12 19:58:45 - [MESSAGE][PASSED] - User is on login page
+
+2025-01-12 19:58:45 - [TEST_STEP][PASSED] - User enters username "admin332" and password "admin123": User enters username "admin332" and password "admin123"
+
+2025-01-12 19:58:46 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputUsername' is present
+
+2025-01-12 19:58:46 - [MESSAGE][PASSED] - Text 'admin332' is set on object 'Object Repository/loginPage/inputUsername'
+
+2025-01-12 19:58:47 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputPassword' is present
+
+2025-01-12 19:58:47 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/loginPage/inputPassword'
+
+2025-01-12 19:58:47 - [MESSAGE][PASSED] - User enters username "admin332" and password "admin123"
+
+2025-01-12 19:58:47 - [TEST_STEP][PASSED] - User clicks on Login button: User clicks on Login button
+
+2025-01-12 19:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPage/buttonLogin' is clicked on
+
+2025-01-12 19:58:49 - [MESSAGE][PASSED] - User clicks on Login button
+
+2025-01-12 19:58:49 - [TEST_STEP][PASSED] - User should see alert error: User should see alert error
+
+2025-01-12 19:58:49 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/invalidCredentials' is present
+
+2025-01-12 19:58:50 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/invalidCredentials' is present
+
+2025-01-12 19:58:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/loginPage/invalidCredentials' is: 'Invalid credentials'
+
+2025-01-12 19:58:50 - [MESSAGE][PASSED] - Actual text 'Invalid credentials' and expected text 'Invalid credentials' are matched 
+
+2025-01-12 19:58:50 - [MESSAGE][PASSED] - User should see alert error
+
+2025-01-12 19:58:50 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User failed login to Admin Page with wrong username and password: SCENARIO User failed login to Admin Page with wrong username and password
+
+2025-01-12 19:58:50 - [TEST_STEP][PASSED] - User is on login page: User is on login page
+
+2025-01-12 19:58:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-01-12 19:58:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-01-12 19:58:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-01-12 19:58:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-01-12 19:58:52 - [MESSAGE][PASSED] - Current window maximized
+
+2025-01-12 19:58:56 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2025-01-12 19:58:56 - [MESSAGE][PASSED] - User is on login page
+
+2025-01-12 19:58:56 - [TEST_STEP][PASSED] - User enters username "Adminwe" and password "admin321": User enters username "Adminwe" and password "admin321"
+
+2025-01-12 19:58:57 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputUsername' is present
+
+2025-01-12 19:58:58 - [MESSAGE][PASSED] - Text 'Adminwe' is set on object 'Object Repository/loginPage/inputUsername'
+
+2025-01-12 19:58:58 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputPassword' is present
+
+2025-01-12 19:58:59 - [MESSAGE][PASSED] - Text 'admin321' is set on object 'Object Repository/loginPage/inputPassword'
+
+2025-01-12 19:58:59 - [MESSAGE][PASSED] - User enters username "Adminwe" and password "admin321"
+
+2025-01-12 19:58:59 - [TEST_STEP][PASSED] - User clicks on Login button: User clicks on Login button
+
+2025-01-12 19:59:00 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPage/buttonLogin' is clicked on
+
+2025-01-12 19:59:00 - [MESSAGE][PASSED] - User clicks on Login button
+
+2025-01-12 19:59:00 - [TEST_STEP][PASSED] - User should see alert error: User should see alert error
+
+2025-01-12 19:59:01 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/invalidCredentials' is present
+
+2025-01-12 19:59:01 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/invalidCredentials' is present
+
+2025-01-12 19:59:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/loginPage/invalidCredentials' is: 'Invalid credentials'
+
+2025-01-12 19:59:02 - [MESSAGE][PASSED] - Actual text 'Invalid credentials' and expected text 'Invalid credentials' are matched 
+
+2025-01-12 19:59:02 - [MESSAGE][PASSED] - User should see alert error
+
+2025-01-12 19:59:02 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User failed login to Admin Page with empty data: SCENARIO User failed login to Admin Page with empty data
+
+2025-01-12 19:59:02 - [TEST_STEP][PASSED] - User is on login page: User is on login page
+
+2025-01-12 19:59:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-01-12 19:59:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-01-12 19:59:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-01-12 19:59:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-01-12 19:59:04 - [MESSAGE][PASSED] - Current window maximized
+
+2025-01-12 19:59:06 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2025-01-12 19:59:06 - [MESSAGE][PASSED] - User is on login page
+
+2025-01-12 19:59:06 - [TEST_STEP][PASSED] - User enters username "" and password "": User enters username "" and password ""
+
+2025-01-12 19:59:08 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputUsername' is present
+
+2025-01-12 19:59:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/loginPage/inputUsername'
+
+2025-01-12 19:59:10 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputPassword' is present
+
+2025-01-12 19:59:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/loginPage/inputPassword'
+
+2025-01-12 19:59:12 - [MESSAGE][PASSED] - User enters username "" and password ""
+
+2025-01-12 19:59:12 - [TEST_STEP][PASSED] - User clicks on Login button: User clicks on Login button
+
+2025-01-12 19:59:13 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPage/buttonLogin' is clicked on
+
+2025-01-12 19:59:13 - [MESSAGE][PASSED] - User clicks on Login button
+
+2025-01-12 19:59:13 - [TEST_STEP][PASSED] - User should see login error: User should see login error
+
+2025-01-12 19:59:14 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/informationMsg' is present
+
+2025-01-12 19:59:14 - [MESSAGE][PASSED] - User should see login error
+
+2025-01-12 19:59:14 - [MESSAGE][PASSED] - Feature file: 'Include/features/login/loginAdmin.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PIM/TC - PIM Add" time="31.472" classname="Test Cases/PIM/TC - PIM Add" status="PASSED">
+         <system-out><![CDATA[2025-01-12 19:59:14 - [TEST_CASE][PASSED] - Test Cases/PIM/TC - PIM Add: Test Cases/PIM/TC - PIM Add
+
+2025-01-12 19:59:14 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/pim/pimAdd.feature"): Feature file: 'Include/features/pim/pimAdd.feature' was passed
+
+2025-01-12 19:59:14 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/pim/pimAdd.feature' and extract report to folder: 'C:\Users\NEXSOFT\Documents\Project\orangehrmdemokatalon\Reports\20250112_195810\PIM\TS - PIM Add\20250112_195810/cucumber_report/1736686754920'...
+
+2025-01-12 19:59:15 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Successfully add PIM: SCENARIO User Successfully add PIM
+
+2025-01-12 19:59:15 - [TEST_STEP][PASSED] - User already on PIM page: User already on PIM page
+
+2025-01-12 19:59:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-01-12 19:59:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-01-12 19:59:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-01-12 19:59:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-01-12 19:59:18 - [MESSAGE][PASSED] - Current window maximized
+
+2025-01-12 19:59:21 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2025-01-12 19:59:22 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputUsername' is present
+
+2025-01-12 19:59:23 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/loginPage/inputUsername'
+
+2025-01-12 19:59:23 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputPassword' is present
+
+2025-01-12 19:59:24 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/loginPage/inputPassword'
+
+2025-01-12 19:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPage/buttonLogin' is clicked on
+
+2025-01-12 19:59:26 - [MESSAGE][PASSED] - Object 'Object Repository/dashboardPage/userProfile' is present
+
+2025-01-12 19:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/PIM' is clicked on
+
+2025-01-12 19:59:28 - [MESSAGE][PASSED] - User already on PIM page
+
+2025-01-12 19:59:28 - [TEST_STEP][PASSED] - User click add pim button: User click add pim button
+
+2025-01-12 19:59:28 - [MESSAGE][PASSED] - Object 'Object Repository/pimPage/ButtonAdd' is present
+
+2025-01-12 19:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/pimPage/ButtonAdd' is clicked on
+
+2025-01-12 19:59:30 - [MESSAGE][PASSED] - User click add pim button
+
+2025-01-12 19:59:30 - [TEST_STEP][PASSED] - User insert profile "profile.png": User insert profile "profile.png"
+
+2025-01-12 19:59:30 - [MESSAGE][PASSED] - File 'C:\Users\NEXSOFT\Documents\Project\orangehrmdemokatalon/Data Files/photos/profile.png' sent to object: 'Object Repository/pimPage/insertImage'
+
+2025-01-12 19:59:30 - [MESSAGE][PASSED] - User insert profile "profile.png"
+
+2025-01-12 19:59:30 - [TEST_STEP][PASSED] - User input employee fullname "Archie", "Grey", "Buster": User input employee fullname "Archie", "Grey", "Buster"
+
+2025-01-12 19:59:31 - [MESSAGE][PASSED] - Text 'Archie' is set on object 'Object Repository/pimPage/inputFirstName'
+
+2025-01-12 19:59:32 - [MESSAGE][PASSED] - Text 'Grey' is set on object 'Object Repository/pimPage/inputMiddleName'
+
+2025-01-12 19:59:33 - [MESSAGE][PASSED] - Text 'Buster' is set on object 'Object Repository/pimPage/inputLastName'
+
+2025-01-12 19:59:33 - [MESSAGE][PASSED] - User input employee fullname "Archie", "Grey", "Buster"
+
+2025-01-12 19:59:33 - [TEST_STEP][PASSED] - User input employee id "099080": User input employee id "099080"
+
+2025-01-12 19:59:34 - [MESSAGE][PASSED] - Text '099080' is set on object 'Object Repository/pimPage/inputEmployeeId'
+
+2025-01-12 19:59:34 - [MESSAGE][PASSED] - User input employee id "099080"
+
+2025-01-12 19:59:34 - [TEST_STEP][PASSED] - User enabled login details: User enabled login details
+
+2025-01-12 19:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/pimPage/loginDetails' is clicked on
+
+2025-01-12 19:59:34 - [MESSAGE][PASSED] - User enabled login details
+
+2025-01-12 19:59:34 - [TEST_STEP][PASSED] - User input username "archiebuster": User input username "archiebuster"
+
+2025-01-12 19:59:36 - [MESSAGE][PASSED] - Text 'archiebuster' is set on object 'Object Repository/pimPage/inputUsername'
+
+2025-01-12 19:59:36 - [MESSAGE][PASSED] - User input username "archiebuster"
+
+2025-01-12 19:59:36 - [TEST_STEP][PASSED] - User change status to "Disabled": User change status to "Disabled"
+
+2025-01-12 19:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/pimPage/status' is clicked on
+
+2025-01-12 19:59:37 - [MESSAGE][PASSED] - User change status to "Disabled"
+
+2025-01-12 19:59:37 - [TEST_STEP][PASSED] - User input password "ArcBust123": User input password "ArcBust123"
+
+2025-01-12 19:59:38 - [MESSAGE][PASSED] - Text 'ArcBust123' is set on object 'Object Repository/pimPage/inputPassword'
+
+2025-01-12 19:59:38 - [MESSAGE][PASSED] - User input password "ArcBust123"
+
+2025-01-12 19:59:38 - [TEST_STEP][PASSED] - User input confirm password "ArcBust123": User input confirm password "ArcBust123"
+
+2025-01-12 19:59:39 - [MESSAGE][PASSED] - Text 'ArcBust123' is set on object 'Object Repository/pimPage/inputConfirmPassword'
+
+2025-01-12 19:59:39 - [MESSAGE][PASSED] - User input confirm password "ArcBust123"
+
+2025-01-12 19:59:39 - [TEST_STEP][PASSED] - User click save button: User click save button
+
+2025-01-12 19:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/pimPage/buttonSave' is clicked on
+
+2025-01-12 19:59:39 - [MESSAGE][PASSED] - User click save button
+
+2025-01-12 19:59:39 - [TEST_STEP][PASSED] - User click PIM page: User click PIM page
+
+2025-01-12 19:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/PIM' is clicked on
+
+2025-01-12 19:59:41 - [MESSAGE][PASSED] - User click PIM page
+
+2025-01-12 19:59:41 - [TEST_STEP][PASSED] - User search employee name "Archie", "Grey", "Buster": User search employee name "Archie", "Grey", "Buster"
+
+2025-01-12 19:59:43 - [MESSAGE][PASSED] - Text 'Archie Grey Buster' is set on object 'Object Repository/pimPage/searchEmployeeName'
+
+2025-01-12 19:59:43 - [MESSAGE][PASSED] - User search employee name "Archie", "Grey", "Buster"
+
+2025-01-12 19:59:43 - [TEST_STEP][PASSED] - User click search button: User click search button
+
+2025-01-12 19:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/pimPage/buttonSearch' is clicked on
+
+2025-01-12 19:59:43 - [MESSAGE][PASSED] - User click search button
+
+2025-01-12 19:59:43 - [TEST_STEP][PASSED] - User should see the data exist: User should see the data exist
+
+2025-01-12 19:59:44 - [MESSAGE][INFO] - iteration: 2
+
+2025-01-12 19:59:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/pimPage/dataTable' is: '099080'
+
+2025-01-12 19:59:44 - [MESSAGE][INFO] - Actual Data: 099080
+
+2025-01-12 19:59:44 - [MESSAGE][INFO] - Expected Data: 099080
+
+2025-01-12 19:59:44 - [MESSAGE][PASSED] - Actual text '099080' and expected text '099080' are matched 
+
+2025-01-12 19:59:44 - [MESSAGE][INFO] - iteration: 3
+
+2025-01-12 19:59:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/pimPage/dataTable' is: 'Archie Grey'
+
+2025-01-12 19:59:45 - [MESSAGE][INFO] - Actual Data: Archie Grey
+
+2025-01-12 19:59:45 - [MESSAGE][INFO] - Expected Data: Archie Grey
+
+2025-01-12 19:59:45 - [MESSAGE][PASSED] - Actual text 'Archie Grey' and expected text 'Archie Grey' are matched 
+
+2025-01-12 19:59:45 - [MESSAGE][INFO] - iteration: 4
+
+2025-01-12 19:59:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/pimPage/dataTable' is: 'Buster'
+
+2025-01-12 19:59:45 - [MESSAGE][INFO] - Actual Data: Buster
+
+2025-01-12 19:59:45 - [MESSAGE][INFO] - Expected Data: Buster
+
+2025-01-12 19:59:45 - [MESSAGE][PASSED] - Actual text 'Buster' and expected text 'Buster' are matched 
+
+2025-01-12 19:59:45 - [MESSAGE][PASSED] - User should see the data exist
+
+2025-01-12 19:59:45 - [MESSAGE][PASSED] - Feature file: 'Include/features/pim/pimAdd.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2025-01-12 19:58:14 - [TEST_SUITE][PASSED] - TS - PIM Add: Test Cases/PIM/TC - PIM Add]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

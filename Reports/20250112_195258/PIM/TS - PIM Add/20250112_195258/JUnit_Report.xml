@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - PIM Add" time="132.94" tests="2" failures="1" errors="0">
+   <testsuite name="TS - PIM Add" tests="2" failures="1" errors="0" time="132.94" skipped="0" timestamp="2025-01-12 19:53:11" hostname="NEXSOFT - DESKTOP-C56VD1H" id="Test Suites/PIM/TS - PIM Add">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\NEXSOFT\\Documents\\Project\\orangehrmdemokatalon\\Reports\\20250112_195258\\PIM\\TS - PIM Add\\20250112_195258"/>
+         <property name="logFiles" value="C:\\Users\\NEXSOFT\\Documents\\Project\\orangehrmdemokatalon\\Reports\\20250112_195258\\PIM\\TS - PIM Add\\20250112_195258\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\NEXSOFT\\Documents\\Project\\orangehrmdemokatalon\\Reports\\20250112_195258\\PIM\\TS - PIM Add\\20250112_195258\\1736686524037.png"/>
+         <property name="hostName" value="NEXSOFT - DESKTOP-C56VD1H"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="10.10.18.106"/>
+         <property name="sessionId" value="25812846b6638db5ef52cb02370d60e7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login/TC - Login Admin" time="63.29" classname="Test Cases/login/TC - Login Admin" status="PASSED">
+         <system-out><![CDATA[2025-01-12 19:53:11 - [TEST_CASE][PASSED] - Test Cases/login/TC - Login Admin: Test Cases/login/TC - Login Admin
+
+2025-01-12 19:53:12 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/login/loginAdmin.feature"): Feature file: 'Include/features/login/loginAdmin.feature' was passed
+
+2025-01-12 19:53:12 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/login/loginAdmin.feature' and extract report to folder: 'C:\Users\NEXSOFT\Documents\Project\orangehrmdemokatalon\Reports\20250112_195258\PIM\TS - PIM Add\20250112_195258/cucumber_report/1736686392467'...
+
+2025-01-12 19:53:17 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User successfully login to Admin Page: SCENARIO User successfully login to Admin Page
+
+2025-01-12 19:53:17 - [TEST_STEP][PASSED] - User is on login page: User is on login page
+
+2025-01-12 19:53:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-01-12 19:53:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-01-12 19:53:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-01-12 19:53:23 - [MESSAGE][PASSED] - Current window maximized
+
+2025-01-12 19:53:26 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2025-01-12 19:53:26 - [MESSAGE][PASSED] - User is on login page
+
+2025-01-12 19:53:26 - [TEST_STEP][PASSED] - User enters username "Admin" and password "admin123": User enters username "Admin" and password "admin123"
+
+2025-01-12 19:53:27 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputUsername' is present
+
+2025-01-12 19:53:28 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/loginPage/inputUsername'
+
+2025-01-12 19:53:28 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputPassword' is present
+
+2025-01-12 19:53:29 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/loginPage/inputPassword'
+
+2025-01-12 19:53:29 - [MESSAGE][PASSED] - User enters username "Admin" and password "admin123"
+
+2025-01-12 19:53:29 - [TEST_STEP][PASSED] - User clicks on Login button: User clicks on Login button
+
+2025-01-12 19:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPage/buttonLogin' is clicked on
+
+2025-01-12 19:53:30 - [MESSAGE][PASSED] - User clicks on Login button
+
+2025-01-12 19:53:30 - [TEST_STEP][PASSED] - User should be logged in to Admin Page: User should be logged in to Admin Page
+
+2025-01-12 19:53:31 - [MESSAGE][PASSED] - Object 'Object Repository/dashboardPage/userProfile' is present
+
+2025-01-12 19:53:31 - [MESSAGE][PASSED] - User should be logged in to Admin Page
+
+2025-01-12 19:53:31 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User failed login to Admin Page with wrong username: SCENARIO User failed login to Admin Page with wrong username
+
+2025-01-12 19:53:31 - [TEST_STEP][PASSED] - User is on login page: User is on login page
+
+2025-01-12 19:53:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-01-12 19:53:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-01-12 19:53:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-01-12 19:53:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-01-12 19:53:33 - [MESSAGE][PASSED] - Current window maximized
+
+2025-01-12 19:53:36 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2025-01-12 19:53:36 - [MESSAGE][PASSED] - User is on login page
+
+2025-01-12 19:53:36 - [TEST_STEP][PASSED] - User enters username "admin332" and password "admin123": User enters username "admin332" and password "admin123"
+
+2025-01-12 19:53:37 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputUsername' is present
+
+2025-01-12 19:53:38 - [MESSAGE][PASSED] - Text 'admin332' is set on object 'Object Repository/loginPage/inputUsername'
+
+2025-01-12 19:53:38 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputPassword' is present
+
+2025-01-12 19:53:39 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/loginPage/inputPassword'
+
+2025-01-12 19:53:39 - [MESSAGE][PASSED] - User enters username "admin332" and password "admin123"
+
+2025-01-12 19:53:39 - [TEST_STEP][PASSED] - User clicks on Login button: User clicks on Login button
+
+2025-01-12 19:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPage/buttonLogin' is clicked on
+
+2025-01-12 19:53:40 - [MESSAGE][PASSED] - User clicks on Login button
+
+2025-01-12 19:53:40 - [TEST_STEP][PASSED] - User should see alert error: User should see alert error
+
+2025-01-12 19:53:41 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/invalidCredentials' is present
+
+2025-01-12 19:53:41 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/invalidCredentials' is present
+
+2025-01-12 19:53:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/loginPage/invalidCredentials' is: 'Invalid credentials'
+
+2025-01-12 19:53:42 - [MESSAGE][PASSED] - Actual text 'Invalid credentials' and expected text 'Invalid credentials' are matched 
+
+2025-01-12 19:53:42 - [MESSAGE][PASSED] - User should see alert error
+
+2025-01-12 19:53:42 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User failed login to Admin Page with wrong password: SCENARIO User failed login to Admin Page with wrong password
+
+2025-01-12 19:53:42 - [TEST_STEP][PASSED] - User is on login page: User is on login page
+
+2025-01-12 19:53:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-01-12 19:53:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-01-12 19:53:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-01-12 19:53:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-01-12 19:53:44 - [MESSAGE][PASSED] - Current window maximized
+
+2025-01-12 19:53:47 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2025-01-12 19:53:47 - [MESSAGE][PASSED] - User is on login page
+
+2025-01-12 19:53:47 - [TEST_STEP][PASSED] - User enters username "admin332" and password "admin123": User enters username "admin332" and password "admin123"
+
+2025-01-12 19:53:48 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputUsername' is present
+
+2025-01-12 19:53:49 - [MESSAGE][PASSED] - Text 'admin332' is set on object 'Object Repository/loginPage/inputUsername'
+
+2025-01-12 19:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputPassword' is present
+
+2025-01-12 19:53:50 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/loginPage/inputPassword'
+
+2025-01-12 19:53:50 - [MESSAGE][PASSED] - User enters username "admin332" and password "admin123"
+
+2025-01-12 19:53:50 - [TEST_STEP][PASSED] - User clicks on Login button: User clicks on Login button
+
+2025-01-12 19:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPage/buttonLogin' is clicked on
+
+2025-01-12 19:53:50 - [MESSAGE][PASSED] - User clicks on Login button
+
+2025-01-12 19:53:50 - [TEST_STEP][PASSED] - User should see alert error: User should see alert error
+
+2025-01-12 19:53:52 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/invalidCredentials' is present
+
+2025-01-12 19:53:52 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/invalidCredentials' is present
+
+2025-01-12 19:53:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/loginPage/invalidCredentials' is: 'Invalid credentials'
+
+2025-01-12 19:53:52 - [MESSAGE][PASSED] - Actual text 'Invalid credentials' and expected text 'Invalid credentials' are matched 
+
+2025-01-12 19:53:52 - [MESSAGE][PASSED] - User should see alert error
+
+2025-01-12 19:53:52 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User failed login to Admin Page with wrong username and password: SCENARIO User failed login to Admin Page with wrong username and password
+
+2025-01-12 19:53:52 - [TEST_STEP][PASSED] - User is on login page: User is on login page
+
+2025-01-12 19:53:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-01-12 19:53:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-01-12 19:53:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-01-12 19:53:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-01-12 19:53:55 - [MESSAGE][PASSED] - Current window maximized
+
+2025-01-12 19:53:58 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2025-01-12 19:53:58 - [MESSAGE][PASSED] - User is on login page
+
+2025-01-12 19:53:58 - [TEST_STEP][PASSED] - User enters username "Adminwe" and password "admin321": User enters username "Adminwe" and password "admin321"
+
+2025-01-12 19:53:59 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputUsername' is present
+
+2025-01-12 19:54:00 - [MESSAGE][PASSED] - Text 'Adminwe' is set on object 'Object Repository/loginPage/inputUsername'
+
+2025-01-12 19:54:00 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputPassword' is present
+
+2025-01-12 19:54:01 - [MESSAGE][PASSED] - Text 'admin321' is set on object 'Object Repository/loginPage/inputPassword'
+
+2025-01-12 19:54:01 - [MESSAGE][PASSED] - User enters username "Adminwe" and password "admin321"
+
+2025-01-12 19:54:01 - [TEST_STEP][PASSED] - User clicks on Login button: User clicks on Login button
+
+2025-01-12 19:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPage/buttonLogin' is clicked on
+
+2025-01-12 19:54:02 - [MESSAGE][PASSED] - User clicks on Login button
+
+2025-01-12 19:54:02 - [TEST_STEP][PASSED] - User should see alert error: User should see alert error
+
+2025-01-12 19:54:03 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/invalidCredentials' is present
+
+2025-01-12 19:54:03 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/invalidCredentials' is present
+
+2025-01-12 19:54:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/loginPage/invalidCredentials' is: 'Invalid credentials'
+
+2025-01-12 19:54:03 - [MESSAGE][PASSED] - Actual text 'Invalid credentials' and expected text 'Invalid credentials' are matched 
+
+2025-01-12 19:54:03 - [MESSAGE][PASSED] - User should see alert error
+
+2025-01-12 19:54:03 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User failed login to Admin Page with empty data: SCENARIO User failed login to Admin Page with empty data
+
+2025-01-12 19:54:03 - [TEST_STEP][PASSED] - User is on login page: User is on login page
+
+2025-01-12 19:54:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-01-12 19:54:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-01-12 19:54:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-01-12 19:54:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-01-12 19:54:07 - [MESSAGE][PASSED] - Current window maximized
+
+2025-01-12 19:54:11 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2025-01-12 19:54:11 - [MESSAGE][PASSED] - User is on login page
+
+2025-01-12 19:54:11 - [TEST_STEP][PASSED] - User enters username "" and password "": User enters username "" and password ""
+
+2025-01-12 19:54:11 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputUsername' is present
+
+2025-01-12 19:54:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/loginPage/inputUsername'
+
+2025-01-12 19:54:13 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputPassword' is present
+
+2025-01-12 19:54:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/loginPage/inputPassword'
+
+2025-01-12 19:54:13 - [MESSAGE][PASSED] - User enters username "" and password ""
+
+2025-01-12 19:54:13 - [TEST_STEP][PASSED] - User clicks on Login button: User clicks on Login button
+
+2025-01-12 19:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPage/buttonLogin' is clicked on
+
+2025-01-12 19:54:14 - [MESSAGE][PASSED] - User clicks on Login button
+
+2025-01-12 19:54:14 - [TEST_STEP][PASSED] - User should see login error: User should see login error
+
+2025-01-12 19:54:14 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/informationMsg' is present
+
+2025-01-12 19:54:14 - [MESSAGE][PASSED] - User should see login error
+
+2025-01-12 19:54:15 - [MESSAGE][PASSED] - Feature file: 'Include/features/login/loginAdmin.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PIM/TC - PIM Add" time="69.22" classname="Test Cases/PIM/TC - PIM Add" status="FAILED">
+         <failure type="FAILED" message="Test Cases/PIM/TC - PIM Add FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/pim/pimAdd.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC - PIM Add.run(TC - PIM Add:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1736686378277.run(TempTestSuite1736686378277.groovy:36)
+"/>
+         <system-out><![CDATA[2025-01-12 19:54:15 - [TEST_CASE][FAILED] - Test Cases/PIM/TC - PIM Add: Test Cases/PIM/TC - PIM Add FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/pim/pimAdd.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC - PIM Add.run(TC - PIM Add:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1736686378277.run(TempTestSuite1736686378277.groovy:36)
+
+
+2025-01-12 19:54:15 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/pim/pimAdd.feature"): Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/pim/pimAdd.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC - PIM Add.run(TC - PIM Add:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1736686378277.run(TempTestSuite1736686378277.groovy:36)
+)
+
+2025-01-12 19:54:15 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/pim/pimAdd.feature' and extract report to folder: 'C:\Users\NEXSOFT\Documents\Project\orangehrmdemokatalon\Reports\20250112_195258\PIM\TS - PIM Add\20250112_195258/cucumber_report/1736686455456'...
+
+2025-01-12 19:54:15 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO User Successfully add PIM: SCENARIO User Successfully add PIM FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/pimPage/dataTable'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at com.demo.pim.PimAdd.verifyDataTable(PimAdd.groovy:118)
+	at com.demo.pim.PimAdd$verifyDataTable$13.call(Unknown Source)
+	at com.features.pimstep.PimAddStep.User_should_see_the_data_exist(PimAddStep.groovy:133)
+	at ✽.User should see the data exist(C:/Users/NEXSOFT/Documents/Project/orangehrmdemokatalon/Include/features/pim/pimAdd.feature:19)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/pimPage/dataTable' located by '//div[@role='table']/div[2]/div/div/div[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at com.demo.pim.PimAdd.verifyDataTable(PimAdd.groovy:118)
+	at com.demo.pim.PimAdd$verifyDataTable$13.call(Unknown Source)
+	at com.features.pimstep.PimAddStep.User_should_see_the_data_exist(PimAddStep.groovy:133)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:70)
+	at cucumber.runner.TestStep.run(TestStep.java:52)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC - PIM Add.run(TC - PIM Add:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1736686378277.run(TempTestSuite1736686378277.groovy:36)
+
+
+2025-01-12 19:54:15 - [TEST_STEP][PASSED] - User already on PIM page: User already on PIM page
+
+2025-01-12 19:54:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-01-12 19:54:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-01-12 19:54:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-01-12 19:54:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-01-12 19:54:18 - [MESSAGE][PASSED] - Current window maximized
+
+2025-01-12 19:54:28 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2025-01-12 19:54:28 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputUsername' is present
+
+2025-01-12 19:54:29 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/loginPage/inputUsername'
+
+2025-01-12 19:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/inputPassword' is present
+
+2025-01-12 19:54:30 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/loginPage/inputPassword'
+
+2025-01-12 19:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPage/buttonLogin' is clicked on
+
+2025-01-12 19:54:32 - [MESSAGE][PASSED] - Object 'Object Repository/dashboardPage/userProfile' is present
+
+2025-01-12 19:54:34 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/PIM' is clicked on
+
+2025-01-12 19:54:34 - [MESSAGE][PASSED] - User already on PIM page
+
+2025-01-12 19:54:34 - [TEST_STEP][PASSED] - User click add pim button: User click add pim button
+
+2025-01-12 19:54:35 - [MESSAGE][PASSED] - Object 'Object Repository/pimPage/ButtonAdd' is present
+
+2025-01-12 19:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/pimPage/ButtonAdd' is clicked on
+
+2025-01-12 19:54:36 - [MESSAGE][PASSED] - User click add pim button
+
+2025-01-12 19:54:36 - [TEST_STEP][PASSED] - User insert profile "profile.png": User insert profile "profile.png"
+
+2025-01-12 19:54:37 - [MESSAGE][PASSED] - File 'C:\Users\NEXSOFT\Documents\Project\orangehrmdemokatalon/Data Files/photos/profile.png' sent to object: 'Object Repository/pimPage/insertImage'
+
+2025-01-12 19:54:37 - [MESSAGE][PASSED] - User insert profile "profile.png"
+
+2025-01-12 19:54:37 - [TEST_STEP][PASSED] - User input employee fullname "Archie", "Grey", "Buster": User input employee fullname "Archie", "Grey", "Buster"
+
+2025-01-12 19:54:38 - [MESSAGE][PASSED] - Text 'Archie' is set on object 'Object Repository/pimPage/inputFirstName'
+
+2025-01-12 19:54:39 - [MESSAGE][PASSED] - Text 'Grey' is set on object 'Object Repository/pimPage/inputMiddleName'
+
+2025-01-12 19:54:40 - [MESSAGE][PASSED] - Text 'Buster' is set on object 'Object Repository/pimPage/inputLastName'
+
+2025-01-12 19:54:40 - [MESSAGE][PASSED] - User input employee fullname "Archie", "Grey", "Buster"
+
+2025-01-12 19:54:40 - [TEST_STEP][PASSED] - User input employee id "099080": User input employee id "099080"
+
+2025-01-12 19:54:41 - [MESSAGE][PASSED] - Text '099080' is set on object 'Object Repository/pimPage/inputEmployeeId'
+
+2025-01-12 19:54:41 - [MESSAGE][PASSED] - User input employee id "099080"
+
+2025-01-12 19:54:41 - [TEST_STEP][PASSED] - User enabled login details: User enabled login details
+
+2025-01-12 19:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/pimPage/loginDetails' is clicked on
+
+2025-01-12 19:54:42 - [MESSAGE][PASSED] - User enabled login details
+
+2025-01-12 19:54:42 - [TEST_STEP][PASSED] - User input username "archiebuster": User input username "archiebuster"
+
+2025-01-12 19:54:43 - [MESSAGE][PASSED] - Text 'archiebuster' is set on object 'Object Repository/pimPage/inputUsername'
+
+2025-01-12 19:54:43 - [MESSAGE][PASSED] - User input username "archiebuster"
+
+2025-01-12 19:54:43 - [TEST_STEP][PASSED] - User change status to "Disabled": User change status to "Disabled"
+
+2025-01-12 19:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/pimPage/status' is clicked on
+
+2025-01-12 19:54:45 - [MESSAGE][PASSED] - User change status to "Disabled"
+
+2025-01-12 19:54:45 - [TEST_STEP][PASSED] - User input password "ArcBust123": User input password "ArcBust123"
+
+2025-01-12 19:54:47 - [MESSAGE][PASSED] - Text 'ArcBust123' is set on object 'Object Repository/pimPage/inputPassword'
+
+2025-01-12 19:54:47 - [MESSAGE][PASSED] - User input password "ArcBust123"
+
+2025-01-12 19:54:47 - [TEST_STEP][PASSED] - User input confirm password "ArcBust123": User input confirm password "ArcBust123"
+
+2025-01-12 19:54:48 - [MESSAGE][PASSED] - Text 'ArcBust123' is set on object 'Object Repository/pimPage/inputConfirmPassword'
+
+2025-01-12 19:54:48 - [MESSAGE][PASSED] - User input confirm password "ArcBust123"
+
+2025-01-12 19:54:48 - [TEST_STEP][PASSED] - User click save button: User click save button
+
+2025-01-12 19:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/pimPage/buttonSave' is clicked on
+
+2025-01-12 19:54:49 - [MESSAGE][PASSED] - User click save button
+
+2025-01-12 19:54:49 - [TEST_STEP][PASSED] - User click PIM page: User click PIM page
+
+2025-01-12 19:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/PIM' is clicked on
+
+2025-01-12 19:54:50 - [MESSAGE][PASSED] - User click PIM page
+
+2025-01-12 19:54:50 - [TEST_STEP][PASSED] - User search employee name "Archie", "Grey", "Buster": User search employee name "Archie", "Grey", "Buster"
+
+2025-01-12 19:54:52 - [MESSAGE][PASSED] - Text 'Archie Grey Buster' is set on object 'Object Repository/pimPage/searchEmployeeName'
+
+2025-01-12 19:54:52 - [MESSAGE][PASSED] - User search employee name "Archie", "Grey", "Buster"
+
+2025-01-12 19:54:52 - [TEST_STEP][PASSED] - User click search button: User click search button
+
+2025-01-12 19:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/pimPage/buttonSearch' is clicked on
+
+2025-01-12 19:54:52 - [MESSAGE][PASSED] - User click search button
+
+2025-01-12 19:54:52 - [TEST_STEP][FAILED] - User should see the data exist: User should see the data exist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/pimPage/dataTable'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at com.demo.pim.PimAdd.verifyDataTable(PimAdd.groovy:118)
+	at com.demo.pim.PimAdd$verifyDataTable$13.call(Unknown Source)
+	at com.features.pimstep.PimAddStep.User_should_see_the_data_exist(PimAddStep.groovy:133)
+	at ✽.User should see the data exist(C:/Users/NEXSOFT/Documents/Project/orangehrmdemokatalon/Include/features/pim/pimAdd.feature:19)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/pimPage/dataTable' located by '//div[@role='table']/div[2]/div/div/div[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at com.demo.pim.PimAdd.verifyDataTable(PimAdd.groovy:118)
+	at com.demo.pim.PimAdd$verifyDataTable$13.call(Unknown Source)
+	at com.features.pimstep.PimAddStep.User_should_see_the_data_exist(PimAddStep.groovy:133)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:70)
+	at cucumber.runner.TestStep.run(TestStep.java:52)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC - PIM Add.run(TC - PIM Add:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1736686378277.run(TempTestSuite1736686378277.groovy:36)
+
+
+2025-01-12 19:54:52 - [MESSAGE][INFO] - iteration: 2
+
+2025-01-12 19:55:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2025-01-12 19:55:24 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/pimPage/dataTable' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/pimPage/dataTable'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at com.demo.pim.PimAdd.verifyDataTable(PimAdd.groovy:118)
+	at com.demo.pim.PimAdd$verifyDataTable$13.call(Unknown Source)
+	at com.features.pimstep.PimAddStep.User_should_see_the_data_exist(PimAddStep.groovy:133)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:70)
+	at cucumber.runner.TestStep.run(TestStep.java:52)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC - PIM Add.run(TC - PIM Add:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1736686378277.run(TempTestSuite1736686378277.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/pimPage/dataTable' located by '//div[@role='table']/div[2]/div/div/div[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at com.demo.pim.PimAdd.verifyDataTable(PimAdd.groovy:118)
+	at com.demo.pim.PimAdd$verifyDataTable$13.call(Unknown Source)
+	at com.features.pimstep.PimAddStep.User_should_see_the_data_exist(PimAddStep.groovy:133)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:70)
+	at cucumber.runner.TestStep.run(TestStep.java:52)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1736590088884.run(Script1736590088884.groovy:20)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\NEXSOFT\\Documents\\Project\\orangehrmdemokatalon\\Reports\\20250112_195258\\PIM\\TS - PIM Add\\20250112_195258\\1736686524037.png]]
+
+2025-01-12 19:55:24 - [MESSAGE][FAILED] - User should see the data exist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/pimPage/dataTable'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at com.demo.pim.PimAdd.verifyDataTable(PimAdd.groovy:118)
+	at com.demo.pim.PimAdd$verifyDataTable$13.call(Unknown Source)
+	at com.features.pimstep.PimAddStep.User_should_see_the_data_exist(PimAddStep.groovy:133)
+	at ✽.User should see the data exist(C:/Users/NEXSOFT/Documents/Project/orangehrmdemokatalon/Include/features/pim/pimAdd.feature:19)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/pimPage/dataTable' located by '//div[@role='table']/div[2]/div/div/div[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at com.demo.pim.PimAdd.verifyDataTable(PimAdd.groovy:118)
+	at com.demo.pim.PimAdd$verifyDataTable$13.call(Unknown Source)
+	at com.features.pimstep.PimAddStep.User_should_see_the_data_exist(PimAddStep.groovy:133)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:70)
+	at cucumber.runner.TestStep.run(TestStep.java:52)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC - PIM Add.run(TC - PIM Add:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1736686378277.run(TempTestSuite1736686378277.groovy:36)
+
+
+2025-01-12 19:55:24 - [MESSAGE][FAILED] - Feature file 'Include/features/pim/pimAdd.feature' was failed
+
+2025-01-12 19:55:24 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/pim/pimAdd.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC - PIM Add.run(TC - PIM Add:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1736686378277.run(TempTestSuite1736686378277.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2025-01-12 19:54:15 - [TEST_CASE][FAILED] - Test Cases/PIM/TC - PIM Add: Test Cases/PIM/TC - PIM Add FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/pim/pimAdd.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC - PIM Add.run(TC - PIM Add:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1736686378277.run(TempTestSuite1736686378277.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2025-01-12 19:53:11 - [TEST_SUITE][FAILED] - TS - PIM Add: Test Cases/PIM/TC - PIM Add FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/pim/pimAdd.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC - PIM Add.run(TC - PIM Add:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1736686378277.run(TempTestSuite1736686378277.groovy:36)]]></system-out>
+      <system-err><![CDATA[2025-01-12 19:53:11 - [TEST_SUITE][FAILED] - TS - PIM Add: Test Cases/PIM/TC - PIM Add FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/pim/pimAdd.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC - PIM Add.run(TC - PIM Add:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1736686378277.run(TempTestSuite1736686378277.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

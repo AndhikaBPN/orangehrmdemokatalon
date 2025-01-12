@@ -1,0 +1,306 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "9cf1273f-7eb4-4918-9f4f-99b649aa91ec",
+        "line": 25,
+        "name": "User Successfully add PIM",
+        "description": "",
+        "id": "user-add-pim-data;user-successfully-add-pim;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13209318700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User already on PIM page",
+            "match": {
+              "location": "PimAddStep.User_already_on_PIM_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "1996feac-70aa-4d3c-afba-1bd08bc3ddef"
+          },
+          {
+            "result": {
+              "duration": 1673491300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click add pim button",
+            "match": {
+              "location": "PimAddStep.User_click_add_pim_button()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "a1892925-a26b-4b78-b969-cf4c00d1013c"
+          },
+          {
+            "result": {
+              "duration": 466283000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User insert profile \"profile.png\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"profile.png\"",
+                  "offset": 20
+                }
+              ],
+              "location": "PimAddStep.User_insert_profile(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "56e78063-c0cd-4638-8289-263d76f6e789"
+          },
+          {
+            "result": {
+              "duration": 2616376100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User input employee fullname \"Archie\", \"Grey\", \"Buster\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Archie\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Grey\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Buster\"",
+                  "offset": 47
+                }
+              ],
+              "location": "PimAddStep.User_input_employee_fullname(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ad384d45-4229-436e-a919-dfc10e9dcd12"
+          },
+          {
+            "result": {
+              "duration": 1284581600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User input employee id \"099080\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"099080\"",
+                  "offset": 23
+                }
+              ],
+              "location": "PimAddStep.User_input_employee_id(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "73708de7-c420-4219-9508-21005223a027"
+          },
+          {
+            "result": {
+              "duration": 457446500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enabled login details",
+            "match": {
+              "location": "PimAddStep.User_enabled_login_details()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "beaec3f6-13fb-41e0-8bfc-6bd6eb4d4b35"
+          },
+          {
+            "result": {
+              "duration": 1580680900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User input username \"archiebuster\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"archiebuster\"",
+                  "offset": 20
+                }
+              ],
+              "location": "PimAddStep.User_input_username(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "4894a70d-ec3d-4232-99e0-3afd8612abb5"
+          },
+          {
+            "result": {
+              "duration": 569741900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User change status to \"Disabled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Disabled\"",
+                  "offset": 22
+                }
+              ],
+              "location": "PimAddStep.User_change_status_to(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "1a8e0ef0-a108-4c00-9103-fdcef0e3c746"
+          },
+          {
+            "result": {
+              "duration": 896449700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User input password \"ArcBust123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ArcBust123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "PimAddStep.User_input_password(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "50cfbc92-a21e-4c28-b6ab-f9e89843e9fe"
+          },
+          {
+            "result": {
+              "duration": 1113214000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User input confirm password \"ArcBust123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ArcBust123\"",
+                  "offset": 28
+                }
+              ],
+              "location": "PimAddStep.User_input_confirm_password(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d4364661-c966-4cff-9539-4d934ff5a916"
+          },
+          {
+            "result": {
+              "duration": 457509900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click save button",
+            "match": {
+              "location": "PimAddStep.User_click_save_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "33b0555b-c06f-4f81-9109-adf972343a42"
+          },
+          {
+            "result": {
+              "duration": 1494228100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click PIM page",
+            "match": {
+              "location": "PimAddStep.User_click_PIM_page()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "bdb318c4-c2ec-407a-bc9f-29736a5acf21"
+          },
+          {
+            "result": {
+              "duration": 2037068600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User search employee name \"Archie\", \"Grey\", \"Buster\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Archie\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Grey\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Buster\"",
+                  "offset": 44
+                }
+              ],
+              "location": "PimAddStep.User_search_employee_name(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "89135031-d264-447b-8c4a-1f905e918888"
+          },
+          {
+            "result": {
+              "duration": 423664500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click search button",
+            "match": {
+              "location": "PimAddStep.User_click_search_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f36ec174-1d75-493b-a05d-2d4237685feb"
+          },
+          {
+            "result": {
+              "duration": 1879720200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should see the data exist",
+            "match": {
+              "location": "PimAddStep.User_should_see_the_data_exist(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "employeeId",
+                  "firstName",
+                  "middleName",
+                  "lastName"
+                ]
+              },
+              {
+                "cells": [
+                  "099080",
+                  "Archie",
+                  "Grey",
+                  "Buster"
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "29d68fc7-db2d-4b47-804f-a0af5a353e49"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          }
+        ]
+      }
+    ],
+    "name": "User Add PIM Data",
+    "description": "",
+    "id": "user-add-pim-data",
+    "keyword": "Feature",
+    "uri": "C:/Users/NEXSOFT/Documents/Project/orangehrmdemokatalon/Include/features/pim/pimAdd.feature",
+    "tags": []
+  }
+]
