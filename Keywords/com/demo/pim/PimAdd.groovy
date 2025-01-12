@@ -114,7 +114,6 @@ public class PimAdd {
 		
 		for (int i = 0; i <data.size(); i++) {
 			j++
-			KeywordUtil.logInfo("iteration: " + j)
 			String actualData = WebUI.getText(findTestObject('Object Repository/pimPage/dataTable', [('index') : j]))
 			KeywordUtil.logInfo("Actual Data: " + actualData)
 			KeywordUtil.logInfo("Expected Data: " + data[i])

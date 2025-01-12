@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "E302E9EE8F34D1C19E51DA7A6C39E94E",
+  "keywordFileContentHash": "A3E7FC322721A8462710A285D48A2F2C",
   "keywordClasses": [
     {
       "name": "com.features.pimstep.PimAddStep",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
