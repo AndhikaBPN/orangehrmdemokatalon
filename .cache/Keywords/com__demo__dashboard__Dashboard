@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "0B445306743AB1E02CDA72950F15417B",
+  "keywordClasses": [
+    {
+      "name": "com.demo.dashboard.Dashboard",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

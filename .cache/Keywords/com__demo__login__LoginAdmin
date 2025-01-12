@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "AFE3DC125CBDFF4386528639B0C6404F",
+  "keywordClasses": [
+    {
+      "name": "com.demo.login.LoginAdmin",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

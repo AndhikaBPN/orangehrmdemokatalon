@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "DA1EA66B27A8BFFE75411B10CDF590D2",
+  "keywordClasses": [
+    {
+      "name": "com.demo.pim.PimAdd",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
