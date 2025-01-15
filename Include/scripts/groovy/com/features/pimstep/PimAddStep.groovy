@@ -118,7 +118,6 @@ public class PimAddStep {
 	@Then("User should see the data exist")
 	public void User_should_see_the_data_exist(DataTable dataTable) {
 		List<Map<String, String>> data = dataTable.asMaps(String, String)
-		List<List<String>> resultArray = []
 
 		for (Map<String, String> row : data) {
 			// Retrieve the values from the row map
