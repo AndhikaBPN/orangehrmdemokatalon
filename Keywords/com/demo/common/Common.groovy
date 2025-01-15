@@ -23,7 +23,7 @@ import internal.GlobalVariable
 public class Common {
 
 	public void openWebBrowser(String url) {
-		WebUI.openBrowser('')
+		WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 		WebUI.maximizeWindow()
 		WebUI.navigateToUrl(url)
 	}
