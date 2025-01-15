@@ -5,6 +5,8 @@
 A demo automation sample to automate orange hrm
 https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
+- Report file is inside orangehrmdemokatalon\Reports
+
 Report Example:
 - Test Suite html report:
 ![image](https://github.com/user-attachments/assets/9e82d185-30b1-4a6f-9f6a-ceb44207f50c)
