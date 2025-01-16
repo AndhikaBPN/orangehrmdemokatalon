@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="53.115127">
+<testcase classname="User Login to Admin Page" name="User successfully login to Admin Page" time="11.827625">
+<system-out><![CDATA[Given User is on login page.................................................passed
+When User enters username "Admin" and password "admin123"...................passed
+And User clicks on Login button.............................................passed
+Then User should be logged in to Admin Page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login to Admin Page" name="User failed login to Admin Page with wrong username" time="10.847577">
+<system-out><![CDATA[Given User is on login page.................................................passed
+When User enters username "admin332" and password "admin123"................passed
+And User clicks on Login button.............................................passed
+Then User should see alert error............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login to Admin Page" name="User failed login to Admin Page with wrong password" time="12.091038">
+<system-out><![CDATA[Given User is on login page.................................................passed
+When User enters username "admin332" and password "admin123"................passed
+And User clicks on Login button.............................................passed
+Then User should see alert error............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login to Admin Page" name="User failed login to Admin Page with wrong username and password" time="10.03505">
+<system-out><![CDATA[Given User is on login page.................................................passed
+When User enters username "Adminwe" and password "admin321".................passed
+And User clicks on Login button.............................................passed
+Then User should see alert error............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login to Admin Page" name="User failed login to Admin Page with empty data" time="8.313837">
+<system-out><![CDATA[Given User is on login page.................................................passed
+When User enters username "" and password ""................................passed
+And User clicks on Login button.............................................passed
+Then User should see login error............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

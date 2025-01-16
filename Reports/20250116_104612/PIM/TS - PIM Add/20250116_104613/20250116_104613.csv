@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - PIM Add,Chrome 131.0.0.0,,,2025-01-16 10:46:18,2025-01-16 10:47:40,1m - 21.745s,PASSED
+,,,,,,,
+Test Cases/login/TC - Login Admin,Chrome 131.0.0.0,,,2025-01-16 10:46:18,2025-01-16 10:47:12,53.693s,PASSED
+"runFeatureFile(""Include/features/login/loginAdmin.feature"")",Chrome 131.0.0.0,,,2025-01-16 10:46:18,2025-01-16 10:47:12,53.498s,PASSED
+,,,,,,,
+Test Cases/PIM/TC - PIM Add,Chrome 131.0.0.0,,,2025-01-16 10:47:12,2025-01-16 10:47:40,27.898s,PASSED
+"runFeatureFile(""Include/features/pim/pimAdd.feature"")",Chrome 131.0.0.0,,,2025-01-16 10:47:12,2025-01-16 10:47:40,27.760s,PASSED

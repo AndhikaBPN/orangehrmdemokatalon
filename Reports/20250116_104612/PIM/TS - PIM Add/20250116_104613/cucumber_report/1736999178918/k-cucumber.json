@@ -1,0 +1,403 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "18547e7a-7cf9-4ddb-b8a1-89c7d811f2cf",
+        "line": 12,
+        "name": "User successfully login to Admin Page",
+        "description": "",
+        "id": "user-login-to-admin-page;user-successfully-login-to-admin-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5759022800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "LoginAdminStep.user_is_on_login_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "87f46fdf-ff41-4613-b76d-d7afcc492b61"
+          },
+          {
+            "result": {
+              "duration": 2874259000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters username \"Admin\" and password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginAdminStep.User_enters_username_and_password(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "904041fe-0048-43e9-9ad9-984615f64110"
+          },
+          {
+            "result": {
+              "duration": 335714400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginAdminStep.User_clicks_on_Login_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "55462d4f-8265-46ad-9874-8d4b86e96675"
+          },
+          {
+            "result": {
+              "duration": 2676536700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be logged in to Admin Page",
+            "match": {
+              "location": "LoginAdminStep.User_should_be_logged_in_to_Admin_Page()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "6906d5d3-7dc8-47c1-9a11-ff99c77e98f5"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "3da62e51-24ee-45ba-965d-37494dbcd92a",
+        "line": 23,
+        "name": "User failed login to Admin Page with wrong username",
+        "description": "",
+        "id": "user-login-to-admin-page;user-failed-login-to-admin-page-with-wrong-username;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5933699800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on login page",
+            "match": {
+              "location": "LoginAdminStep.user_is_on_login_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "e1aa6ca0-97bd-4987-9bf2-9b8080f9e296"
+          },
+          {
+            "result": {
+              "duration": 2775197600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters username \"admin332\" and password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin332\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 45
+                }
+              ],
+              "location": "LoginAdminStep.User_enters_username_and_password(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "4c913f8f-80ee-41a2-8871-1cd9f0c5b310"
+          },
+          {
+            "result": {
+              "duration": 331972800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginAdminStep.User_clicks_on_Login_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "fc40c637-1c4b-4266-93dc-14f63c183c07"
+          },
+          {
+            "result": {
+              "duration": 1801064800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should see alert error",
+            "match": {
+              "location": "LoginAdminStep.User_should_see_alert_error()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "9593578a-22c9-45d6-b033-199934013973"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "55de352a-67e0-4b63-bc15-c4aab2645de0",
+        "line": 34,
+        "name": "User failed login to Admin Page with wrong password",
+        "description": "",
+        "id": "user-login-to-admin-page;user-failed-login-to-admin-page-with-wrong-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7166788400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User is on login page",
+            "match": {
+              "location": "LoginAdminStep.user_is_on_login_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "0fc4445a-f058-4f89-ad77-8e77d60d638f"
+          },
+          {
+            "result": {
+              "duration": 2797377000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enters username \"admin332\" and password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin332\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 45
+                }
+              ],
+              "location": "LoginAdminStep.User_enters_username_and_password(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "2c2cb952-3533-4921-bc9b-7e8da47f99ff"
+          },
+          {
+            "result": {
+              "duration": 342459400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginAdminStep.User_clicks_on_Login_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d1cefbf1-2ace-49bc-9097-866d5ea56c5b"
+          },
+          {
+            "result": {
+              "duration": 1779981500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should see alert error",
+            "match": {
+              "location": "LoginAdminStep.User_should_see_alert_error()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "743a613f-89eb-44ad-a1f1-1ea60eda1a30"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "974a9ac6-ef5b-4f54-84d0-8bf2f26f4ee3",
+        "line": 45,
+        "name": "User failed login to Admin Page with wrong username and password",
+        "description": "",
+        "id": "user-login-to-admin-page;user-failed-login-to-admin-page-with-wrong-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5074567600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User is on login page",
+            "match": {
+              "location": "LoginAdminStep.user_is_on_login_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "be0dd472-e028-49fd-832c-161348d64b01"
+          },
+          {
+            "result": {
+              "duration": 2802155900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User enters username \"Adminwe\" and password \"admin321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Adminwe\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin321\"",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginAdminStep.User_enters_username_and_password(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "10b23196-72b7-4d06-9140-3613415a25d2"
+          },
+          {
+            "result": {
+              "duration": 337866200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginAdminStep.User_clicks_on_Login_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "1b38a522-1d22-4802-b910-c3f91dca3126"
+          },
+          {
+            "result": {
+              "duration": 1815262700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User should see alert error",
+            "match": {
+              "location": "LoginAdminStep.User_should_see_alert_error()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "150a24c0-895f-4143-89c3-cb16d0b6b70f"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "8c2be43a-80a6-4a9e-9282-2891328305ec",
+        "line": 56,
+        "name": "User failed login to Admin Page with empty data",
+        "description": "",
+        "id": "user-login-to-admin-page;user-failed-login-to-admin-page-with-empty-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4952015100,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User is on login page",
+            "match": {
+              "location": "LoginAdminStep.user_is_on_login_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "9742163e-823c-44f1-9619-1197d6b6210f"
+          },
+          {
+            "result": {
+              "duration": 2740742600,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User enters username \"\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginAdminStep.User_enters_username_and_password(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "3bfb7cbc-cbac-484b-b496-ae94dea5fec5"
+          },
+          {
+            "result": {
+              "duration": 330523900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginAdminStep.User_clicks_on_Login_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "54904cde-b3c5-4696-a646-94b2cc0b2211"
+          },
+          {
+            "result": {
+              "duration": 287493900,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should see login error",
+            "match": {
+              "location": "LoginAdminStep.User_should_see_login_error()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "6eb9b430-2b8c-45b6-9fad-c550cfd09114"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "User Login to Admin Page",
+    "description": "",
+    "id": "user-login-to-admin-page",
+    "keyword": "Feature",
+    "uri": "C:/Users/Pongo/Documents/Project/orangehrmdemokatalon/Include/features/login/loginAdmin.feature",
+    "tags": []
+  }
+]
